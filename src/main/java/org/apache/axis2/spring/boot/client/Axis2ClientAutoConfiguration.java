@@ -3,7 +3,7 @@ package org.apache.axis2.spring.boot.client;
 import org.apache.axis2.client.Options;
 import org.apache.axis2.context.ConfigurationContext;
 import org.apache.axis2.context.ConfigurationContextFactory;
-import org.apache.axis2.transport.TransportListener;
+import org.apache.axis2.kernel.TransportListener;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.AutoConfigureOrder;
